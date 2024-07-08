@@ -59,7 +59,7 @@ body {
     transform: translateX(-50%);
     width: 0;
     transform-origin: left;
-    height: 95%;
+    height: 100%;
     background-color: var(--primary-color);
     border-radius: 1rem;
     z-index: -1;
