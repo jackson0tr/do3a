@@ -25,7 +25,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    /* isolation: isolate; */
+    isolation: isolate;
     /* display: grid; */
     /* gap: 2rem; */
     overflow: hidden;
@@ -46,7 +46,7 @@ body {
 
 .container__right {
     position: relative;
-    /* isolation: isolate; */
+    isolation: isolate;
     /* display: grid; */
     /* gap: 2rem; */
 }
@@ -100,7 +100,6 @@ body {
 @media (width > 768px) {
 
     .container {
-        grid-template-columns: 2fr 3fr;
         align-items: center;
         padding: 2rem 0;
     }
@@ -112,7 +111,6 @@ body {
 
 @media (width > 1024px) {
     .container__right {
-        grid-template-columns: 1fr 2fr;
         align-items: center;
     }
 
