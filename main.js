@@ -14,5 +14,5 @@ ScrollReveal().reveal(".container__right h4", {
   delay: 2000,
 });al().reveal(".container__right p", {
   ...scrollRevealOption,
-  delay: 2500,
+  delay: 3000,
 });
