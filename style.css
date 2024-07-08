@@ -27,7 +27,7 @@ body {
     position: relative;
     /* isolation: isolate; */
     /* display: grid; */
-    gap: 2rem;
+    /* gap: 2rem; */
     overflow: hidden;
 }
 
@@ -59,7 +59,7 @@ body {
     transform: translateX(-50%);
     width: 0;
     transform-origin: left;
-    height: 90%;
+    height: 95%;
     background-color: var(--primary-color);
     border-radius: 1rem;
     z-index: -1;
