@@ -27,7 +27,7 @@ ScrollReveal().reveal(".container__right h4", {
 // });
 ScrollReveal().reveal(".container__right p", {
   ...scrollRevealOption,
-  delay: 3500,
+  delay: 2000,
 });
 
 // ScrollReveal().reveal(".container__right .tent-1", {
